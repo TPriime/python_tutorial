@@ -1,0 +1,24 @@
+<body>
+    Item: <br/><br/>
+    <input type="text" placeholder="name"/><br/><br/>
+    <input type="text" placeholder="price"/><br/><br/>
+    
+    <button onclick="printReceipt()">Print Receipt</button>
+</body>
+
+<script>
+    function printReceipt() {
+        console.log("\n......Giftcares........")
+        console.log("Date: {date}\nTime: {time}")
+        console.log("..................................")
+        console.log("s/n \tName \tAmount")
+        console.log("..................................")
+        //for i, name_price in enumerate(items, start = 1):
+        console.log ("{i}. {name_price[0]} : N{name_price[1]}")
+
+        console.log("...................................")
+        console.log("Total : {total}")
+        console.log(".....................................")
+        console.log ("Thanks for your patronage🤗")
+    }
+</script>
