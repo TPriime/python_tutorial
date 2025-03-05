@@ -43,12 +43,3 @@ print("Course Grades...")
 print(f"English : {grade_english}")
 print(f"History : {grade_history}")
 print(f"Ice cream : {grade_ice_cream}")
-
-
-'''
-variable declaration
-
-1. must only consist of letters a-z, A-Z, or "_" or 0-9
-2. must not start with a number (0-9)
-3. no space in between
-'''
